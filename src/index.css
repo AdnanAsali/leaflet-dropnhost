@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.leaflet-search-wrap
+{
+  /* width: 50px;
+  height: 50px; */
+}
+
+.focus-visible
+{
+  width: 300px !important;
+  height: 100px !important;
+}
+
+.leaflet-right .leaflet-control
+{
+  width: 100% !important  ;
+}
+
+.search-control-icon-button
+{
+  width: 100% !important;
+  height: 150px !important;
+}
+
+.search-input
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input svg
+{
+  width: 100px !important;
+  height: 100px !important;
+}
+
+
+.leaflet-container {
+  height: 1000px;
+  width: 100% !important;
+}
+
+.search-control
+{
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px !important;
+  border: none;
+  cursor: pointer !important;
+}
+
+.search-control-wrap
+{
+  width: 100%;
+  box-shadow: none;
+  width: 30%;
+  float: right;
+}
+
+.search-control-active .search-control-input {
+  padding: 0px 150px 0px 0px !important;
+}
+
+.search-control
+{
+  width: 100%;
+  background-color: hsl(173, 49%, 45%) !important;
+}
+
+.leaflet-right {
+  right: 0;
+  width: 100%;
+}
+
+.search-control-icon-button {
+  background-color: yellow !important;
+}
